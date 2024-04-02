@@ -1,1 +1,3 @@
-console.log("does this work?");
+particlesJS.load('maincontent', 'particles.json', function() {
+    console.log('callback - particles.js config loaded');
+})
